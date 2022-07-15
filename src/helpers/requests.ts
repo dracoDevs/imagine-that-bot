@@ -1,6 +1,6 @@
 import axios, { AxiosResponse, AxiosInstance, AxiosRequestConfig } from "axios";
 
-class RequestHandler {
+export default class RequestHandler {
 
     requestHandler: AxiosInstance;
 
@@ -24,5 +24,3 @@ class RequestHandler {
     };
 
 };
-
-export const req: RequestHandler =  new RequestHandler();
