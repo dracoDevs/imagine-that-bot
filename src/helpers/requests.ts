@@ -14,7 +14,7 @@ class RequestHandler {
                 "Accept": "application/json"
             },
             method: "POST",
-            timeout: 200000,
+            timeout: 20000,
             validateStatus: null
         });
     };
