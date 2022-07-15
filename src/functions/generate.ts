@@ -1,7 +1,7 @@
 import { req } from "@Requests";
-import { rmSync, readFileSync, writeFileSync } from "fs";
 import { Message } from "discord.js";
 import { AxiosResponse } from "axios";
+import { rmSync, readFileSync, writeFileSync } from "fs";
 
 export async function getImages(message: Message, query: string): Promise<void> {
     let generated = false;
