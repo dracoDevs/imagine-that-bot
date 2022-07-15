@@ -1,7 +1,11 @@
+<<<<<<< HEAD
 import req from "@Requests";
+=======
+import { req } from "@Requests";
+import { rmSync, readFileSync, writeFileSync } from "fs";
+>>>>>>> parent of e9b0575 (Update generate.ts)
 import { Message } from "discord.js";
 import { AxiosResponse } from "axios";
-import { rmSync, readFileSync, writeFileSync } from "fs";
 
 export async function getImages(message: Message, query: string): Promise<void> {
     let generated = false;
