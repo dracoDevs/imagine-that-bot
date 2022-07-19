@@ -1,4 +1,4 @@
-import { getImages } from "@Generate";
+import { getImages } from "@gen";
 import { Client, Intents, Message } from "discord.js";
 
 require("dotenv").config();

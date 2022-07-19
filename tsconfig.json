@@ -22,8 +22,8 @@
     "resolveJsonModule": true,
     "baseUrl": "src",
     "paths": {
-      "@Requests": [ "helpers/requests.ts" ],
-      "@Generate": [ "functions/generate.ts" ]
+      "@req": [ "helpers/requests.ts" ],
+      "@gen": [ "functions/generate.ts" ]
     }
   },
   "exclude": ["node_modules"],

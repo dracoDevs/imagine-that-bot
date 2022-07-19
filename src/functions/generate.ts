@@ -1,5 +1,5 @@
 
-import { req } from "@Requests";
+import { req } from "@req";
 import { Message } from "discord.js";
 import { AxiosResponse } from "axios";
 import { rmSync, readFileSync, writeFileSync } from "fs";
