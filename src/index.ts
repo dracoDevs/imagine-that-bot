@@ -32,7 +32,7 @@ class ImagineThat {
 
     async commandHandler(): Promise<void> {
         this.client.on("messageCreate", async (message: Message) => {
-            if (message.content.split(" ")[0].toLowerCase() == (process.env.PREFIX)) {
+            if (message.content.split(" ")[0].toLowerCase() === process.env.PREFIX) {
                 const query: string = message.content.toLowerCase().split(process.env.PREFIX)[1];
                 console.log(`Serving ${query.trim()}...`);
                 await message.reply("AI is thinking...");
